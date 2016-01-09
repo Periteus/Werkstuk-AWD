@@ -1,0 +1,130 @@
+/*
+Theme Name: myTheme
+Author: Ben Algoet
+Version: 1.0
+*/
+
+
+
+/* layout*/
+
+@import url('css/app.css');
+@import url('css/foundation.css');
+html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	height:auto;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+div.container-post{
+	max-width: 920px;
+	margin: 0 auto; 
+	padding-left: 20px; 
+	padding-right: 20px;
+}
+
+
+p {
+	line-height: 1.65em;
+	margin: 0 0 1.25em 0;
+}
+
+article.post-article {
+	margin-bottom: 20px;
+	margin-left: 1em;
+	padding-top: 1em;
+	
+}
+
+article.post-article:last-of-type {
+	border-bottom: none;
+}
+
+.bgtest{
+	background-color: #F2F2F2;
+	
+}
+
+
+.post-thumbnail{
+	
+	
+}
+
+.blog-page{
+	margin-top: 1em;
+}
+
+.blog-link{
+	color: #000;
+}
+
+/* Page Layout */
+article.page h2 {
+	font-size: 225%;
+	margin-bottom: 15px;
+}
+
+/* post */
+
+.post-article h2 {
+	margin-bottom: 0;
+	font-size: 200%;
+	padding-bottom: 0.250em;
+}
+
+p.post-date{
+	font-size: 90%;
+	color: #999;
+}
+
+p.post-date a:link,
+p.post-date a:visited {
+	color: #999;
+	text-decoration: underline;
+	
+}
+
+
+
+p.post-date a:hover{
+	color: #006ec3;
+}
+/* search */
+
+div.searchform label{
+	position: absolute;
+	left: -9999px;
+	
+}
+
+div.searchform{
+	margin-top: 1em;
+}
+
+/* Archives */
+
+.side-archive h2{
+	font-size: 100%;
+	
+}
+
+.archive-link li{
+	list-style: none;
+	
+}
+.archive-link a{
+	color: #999;
+}
+
+.archive-link a:hover{
+	color: #006ec3;
+}

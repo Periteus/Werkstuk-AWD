@@ -1,0 +1,96 @@
+/* body */
+
+body {
+  height: auto;
+}
+
+h1{
+	margin: 1em;
+}
+.spaceh{
+	margin-top: 50px;
+}
+
+hr{
+	margin: auto;
+	border-width: 2px 0 0;
+}
+/* top bar */
+
+
+
+/* Cia */
+.smallimg{
+    display: block;
+    margin: 0 auto;
+	max-height: 100px;
+	margin-bottom: 20px;
+}
+
+
+
+
+/* about skills */
+.skills {
+  padding: 1em;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin: 2em 0;
+  background-color: #f2f2f2; }
+  .skills img {
+    width: 8em;
+	background-color: #fff;
+    display: block;
+    margin: 2rem auto;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #888888; }
+  .skills .info {
+    padding: 1rem; }
+    .skills .info h4 {
+      margin-top: 0;
+      text-align: center;
+      text-transform: uppercase; }
+    .skills .info p {
+      text-align: center; }
+    .skills .info .inline-list {
+      text-align: center;
+      margin-bottom: 1rem; }
+      .skills .info .inline-list li {
+        float: none;
+        display: inline-block; }
+      
+
+
+/* footer */
+.footer {
+  background-color: #292c2f;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 1em; }
+.footer p{
+	text-align: center;
+	margin-bottom:0;
+	
+}
+  .footer .copy {
+    color: #8f9296;
+    font-size: 0.875em;
+   }
+  .footer .footer-links a {
+    list-style: none;
+    font-weight: normal;
+    color: #fff;
+    margin: 0;
+    font-size: 0.875em; }
+    .footer .footer-links a::after {
+      content: "-";
+      padding: 0 0.2em 0 0.4em; }
+    .footer .footer-links a:last-child::after {
+      content: "";
+      padding: 0 0.4em 0 0.8em; }
+  @media only screen and (min-width: 40.063em) {
+        margin: 0; }
+     
+
+
+
